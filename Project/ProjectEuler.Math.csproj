@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Authors>Marco Labarile</Authors>
+    <Language>en-US</Language>
+    <AssemblyTitle>Project Euler Math</AssemblyTitle>
+    <Description>
+      A collection of math functions able to speed up the coding of solutions to Projec Euler problems.
+      Written in C# on .NET Core.
+      Visit the GitHub repository for additional informations.
+    </Description>
+    <PackageTags>project euler;euler;math;helpers</PackageTags>
+    <PackageIconUrl>http://numl.net/images/ico.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/labarilem/ProjectEuler.Math</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/labarilem/ProjectEuler.Math/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/labarilem/ProjectEuler.Math</RepositoryUrl>
+  </PropertyGroup>
+</Project>
