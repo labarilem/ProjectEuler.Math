@@ -7,5 +7,11 @@ A collection of math functions able to speed up the coding of solutions to Proje
 Here is a summary of all the functions in the project:
 - Primes
   - IsPrime
+  - CachedIsPrime
+- BigPrimes
+  - IsPrime
+  - CachedIsPrime
 - Combinatorics
   - IsPalindromic
+- Extensions
+  - BigIntenger.Sqrt
