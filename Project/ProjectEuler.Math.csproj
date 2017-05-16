@@ -7,7 +7,7 @@
     <Language>en-US</Language>
     <AssemblyTitle>Project Euler Math</AssemblyTitle>
     <Description>
-      A collection of math functions able to speed up the coding of solutions to Projec Euler problems.
+      A collection of math functions able to speed up the coding of solutions to Project Euler problems.
       Written in C# on .NET Core.
       Visit the GitHub repository for additional informations.
     </Description>
