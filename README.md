@@ -7,7 +7,7 @@ A collection of math functions able to speed up the coding of solutions to Proje
 How to install this package from .NET Core CLI:
 <pre><code>dotnet add package ProjectEuler.Math</code></pre>
 
-Here is a summary of all the functions in the project:
+Here is a summary of all the functions in the library:
 - Primes
   - IsPrime
   - CachedIsPrime
