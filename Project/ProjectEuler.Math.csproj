@@ -11,7 +11,7 @@
       Written in C# on .NET Core.
       Visit the GitHub repository for additional informations.
     </Description>
-    <PackageTags>project euler;euler;math;helpers</PackageTags>
+    <PackageTags>project;euler;math;helpers</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/labarilem/ProjectEuler.Math/master/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/labarilem/ProjectEuler.Math</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/labarilem/ProjectEuler.Math/master/LICENSE</PackageLicenseUrl>
