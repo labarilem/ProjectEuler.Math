@@ -76,18 +76,18 @@ namespace ProjectEuler.Math
 
     public static class Primes
     {
-        private static uint[] _cache;
-        private static uint _cacheIndex;
-        private static uint _cacheSize;
+        private static ulong[] _cache;
+        private static ulong _cacheIndex;
+        private static ulong _cacheSize;
 
         /// <summary>
         /// Initializes a new cache with the specified cache size.
         /// </summary>
-        public static void InitializeCache(uint cacheSize)
+        public static void InitializeCache(ulong cacheSize)
         {
             if(cacheSize <= 0)
                 throw new ArgumentOutOfRangeException("cacheSize must be > 0.");
-            _cache = new uint[cacheSize];
+            _cache = new ulong[cacheSize];
             _cacheSize = cacheSize;
             _cacheIndex = 0;
         }
@@ -95,7 +95,7 @@ namespace ProjectEuler.Math
         /// <summary>
         /// Checks if the specified number is prime, caching known primes.
         /// </summary>
-        public static bool IsPrime(uint number)
+        public static bool IsPrime(ulong number)
         {
             return SqrSieve(number);
         }
@@ -104,7 +104,7 @@ namespace ProjectEuler.Math
         /// Checks if the specified number is prime, caching known primes.
         /// Call InitializeCache before calling this function.
         /// </summary>
-        public static bool CachedIsPrime(uint number)
+        public static bool CachedIsPrime(ulong number)
         {
             if(Array.BinarySearch(_cache, number) > 0)
             {
@@ -123,7 +123,7 @@ namespace ProjectEuler.Math
             }
         }
 
-        private static bool SqrSieve(uint number)
+        private static bool SqrSieve(ulong number)
         {
             if (number <= 1) return false;
             if (number < 4) return true;
@@ -131,8 +131,8 @@ namespace ProjectEuler.Math
             if (number < 9) return true;
             if ((number % 3) == 0) return false;
 
-            uint boundary = (uint)System.Math.Floor(System.Math.Sqrt(number));
-            uint i = 5;
+            ulong boundary = (ulong)System.Math.Floor(System.Math.Sqrt(number));
+            ulong i = 5;
             while (i <= boundary)
             {
                 if ((number % i) == 0)  return false;
