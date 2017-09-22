@@ -17,4 +17,4 @@ Here is a summary of all the functions in the library:
 - Combinatorics
   - IsPalindromic
 - Extensions
-  - BigIntenger.Sqrt
+  - BigInteger.Sqrt
