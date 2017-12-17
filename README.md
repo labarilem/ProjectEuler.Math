@@ -18,3 +18,6 @@ Here is a summary of all the functions in the library:
   - IsPalindromic
 - Extensions
   - BigInteger.Sqrt
+- Graphing
+  - Graph data structures
+  - Graph algorithms
